@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id = "address" class="com.tplink.lxy.pojo.Address">
+        <property name="address" value="zhongguo"/>
+    </bean>
+    <bean id ="student" class="com.tplink.lxy.pojo.Student">
+        <property name="name" value="lxy"/>
+        <property name="address" ref="address"/>
+        <property name="books">
+            <array>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </array>
+        </property>
+        <property name="hobbys">
+            <list>
+                <value>4</value>
+                <value>5</value>
+                <value>6</value>
+            </list>
+        </property>
+        <property name="card">
+            <map>
+                <entry key="1" value="12333"></entry>
+            </map>
+        </property>
+        <property name="hello" >
+            <null></null>
+        </property>
+    </bean>
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="user" class="com.tplink.lxy.User" name="user2" scope="singleton">-->
+<!--&lt;!&ndash;        <property name="name" value="lin"></property>&ndash;&gt;-->
+<!--        <constructor-arg index="0" value="jdkkk"></constructor-arg>-->
+<!--    </bean>-->
+    <bean id ="user" class = "com.tplink.lxy.User" p:name="123"/>
+<!--    <bean id ="user" class = "com.tplink.lxy.User" c:name="123"/>-->
+</beans>

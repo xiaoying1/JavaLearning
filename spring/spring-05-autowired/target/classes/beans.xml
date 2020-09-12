@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id="cat" class="com.tplink.lxy.Cat"/>-->
+<!--    <bean id="dog" class="com.tplink.lxy.Dog"/>-->
+<!--    <bean id="people" class="com.tplink.lxy.People" autowire="byName">-->
+<!--        <property name="name" value="lxy"/>-->
+<!--&lt;!&ndash;        <property name="cat" ref="cat"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="dog" ref="dog"/>&ndash;&gt;-->
+<!--    </bean>-->
+
+    <context:annotation-config></context:annotation-config>
+        <bean id="Cat1" class="com.tplink.lxy.Cat"/>
+<!--        <bean id="Cat2" class="com.tplink.lxy.Cat"/>-->
+        <bean id="dog" class="com.tplink.lxy.Dog"/>
+        <bean id="people" class="com.tplink.lxy.People"/>
+</beans>
