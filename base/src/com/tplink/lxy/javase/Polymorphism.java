@@ -7,6 +7,7 @@ public class Polymorphism {
         Person s2 = new Student();
         Object s3 = new Student();
 
+        //对象能执行哪些方法，主要看对象左边的类型
         s1.run();
         s2.run();
         ((Student) s3).run();
