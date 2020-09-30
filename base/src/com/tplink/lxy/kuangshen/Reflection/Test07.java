@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 public class Test07 {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -15,7 +15,7 @@ public class Test07 {
         System.out.println(parent1);
 
         //测试当前类是哪个加载器加载的
-        ClassLoader classLoader = Class.forName("com.tplink.lxy.reflection.Test07").getClassLoader();
+        ClassLoader classLoader = Class.forName("com.tplink.lxy.kuangshen.Reflection.Test07").getClassLoader();
         System.out.println(classLoader);
 
         //测试JDK内置的类是谁加载的

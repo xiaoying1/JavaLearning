@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.javase;
+package com.tplink.lxy.kuangshen.JavaSE;
 
 public class OverrideDemo {
     public static void main(String[] args) {

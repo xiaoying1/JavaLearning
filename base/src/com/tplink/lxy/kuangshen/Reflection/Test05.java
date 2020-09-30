@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 public class Test05 {
     public static void main(String[] args) {

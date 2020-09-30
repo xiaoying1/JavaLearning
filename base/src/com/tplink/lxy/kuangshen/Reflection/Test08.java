@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 
 import java.lang.reflect.Constructor;
@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 
 public class Test08 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, NoSuchMethodException {
-        Class c1 = Class.forName("com.tplink.lxy.reflection.User");
+        Class c1 = Class.forName("com.tplink.lxy.kuangshen.Reflection.User");
 
         //获得类的名字
         System.out.println(c1.getName());

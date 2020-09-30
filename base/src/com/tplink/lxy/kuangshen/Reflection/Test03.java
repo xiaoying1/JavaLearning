@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 public class Test03 {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -10,7 +10,7 @@ public class Test03 {
         System.out.println(c1.hashCode());
 
         //方式二：forname获得
-        Class c2 = Class.forName("com.tplink.lxy.reflection.Student");
+        Class c2 = Class.forName("com.tplink.lxy.kuangshen.Reflection.Student");
         System.out.println(c2.hashCode());
 
         //方式三：类名.class获得

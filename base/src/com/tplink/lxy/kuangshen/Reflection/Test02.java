@@ -1,16 +1,16 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 public class Test02{
     public static void main(String[] args) throws ClassNotFoundException {
         //通过反射获取类的class对象
-        Class c1 = Class.forName("com.tplink.lxy.reflection.User");
+        Class c1 = Class.forName("com.tplink.lxy.kuangshen.Reflection.User");
         System.out.println(c1);
 
         //一个类在内存中只有一个Class对象
         //一个类被加载后，类的整个结构都会被封装在Class对象中
-        Class c2 = Class.forName("com.tplink.lxy.reflection.User");
-        Class c3 = Class.forName("com.tplink.lxy.reflection.User");
-        Class c4 = Class.forName("com.tplink.lxy.reflection.User");
+        Class c2 = Class.forName("com.tplink.lxy.kuangshen.Reflection.User");
+        Class c3 = Class.forName("com.tplink.lxy.kuangshen.Reflection.User");
+        Class c4 = Class.forName("com.tplink.lxy.kuangshen.Reflection.User");
 
         System.out.println(c2.hashCode());
         System.out.println(c3.hashCode());

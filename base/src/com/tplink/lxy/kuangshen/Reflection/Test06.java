@@ -1,4 +1,4 @@
-package com.tplink.lxy.kuangshen.reflection;
+package com.tplink.lxy.kuangshen.Reflection;
 
 public class Test06 {
     static {
