@@ -23,7 +23,7 @@ public class JdkProxyExample implements InvocationHandler {
      * @param proxy 代理对象
      * @param method 当前调度方法
      * @param args 当前方法参数
-     * @return代理结果返回
+     * @return 代理结果返回
      * @throws Throwable 异常
      */
     @Override

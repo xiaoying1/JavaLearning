@@ -8,7 +8,7 @@ public class Test06 {
         //主动引用
 //        Son son = new Son();
         //反射也会产生主动引用
-//        Class.forName("com.tplink.lxy.kuangshen.reflection.Son");
+//        Class.forName("com.tplink.lxy.kuangshen.Reflection.Son");
 
 
 
