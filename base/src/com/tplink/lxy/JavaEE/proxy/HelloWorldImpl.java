@@ -1,4 +1,4 @@
-package com.tplink.lxy.proxy;
+package com.tplink.lxy.JavaEE.proxy;
 
 public class HelloWorldImpl implements HelloWorld {
 

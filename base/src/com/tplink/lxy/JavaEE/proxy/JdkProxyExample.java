@@ -1,4 +1,4 @@
-package com.tplink.lxy.proxy;
+package com.tplink.lxy.JavaEE.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

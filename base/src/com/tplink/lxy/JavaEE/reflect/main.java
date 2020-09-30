@@ -1,8 +1,7 @@
-package com.tplink.lxy.reflect;
+package com.tplink.lxy.JavaEE.reflect;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.sql.SQLOutput;
 
 public class main {
     public static void main(String[] args) {
@@ -19,7 +18,7 @@ public class main {
     public static ReflectServiceImpl1 getInstance1(){
         ReflectServiceImpl1 object = null;
         try {
-            object = (ReflectServiceImpl1)Class.forName("com.tplink.lxy.reflect.ReflectServiceImpl1").newInstance();
+            object = (ReflectServiceImpl1)Class.forName("com.tplink.lxy.JavaEE.reflect.ReflectServiceImpl1").newInstance();
 
         }catch (ClassNotFoundException|InstantiationException|IllegalAccessException ex){
             ex.printStackTrace();
@@ -29,7 +28,7 @@ public class main {
     public static ReflectServiceImpl2 getInstance2(String name){
         ReflectServiceImpl2 object = null;
         try {
-            object = (ReflectServiceImpl2)Class.forName("com.tplink.lxy.reflect.ReflectServiceImpl2").getConstructor(String.class).newInstance(name);
+            object = (ReflectServiceImpl2)Class.forName("com.tplink.lxy.JavaEE.reflect.ReflectServiceImpl2").getConstructor(String.class).newInstance(name);
 
         }catch (ClassNotFoundException|InstantiationException|IllegalAccessException|NoSuchMethodException|SecurityException|IllegalArgumentException| InvocationTargetException ex){
             ex.printStackTrace();

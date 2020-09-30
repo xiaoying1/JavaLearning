@@ -1,4 +1,4 @@
-package com.tplink.lxy.reflect;
+package com.tplink.lxy.JavaEE.reflect;
 
 public class ReflectServiceImpl2 {
     private String name;
