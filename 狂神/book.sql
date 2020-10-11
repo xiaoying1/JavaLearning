@@ -11,7 +11,7 @@ create table if not exists book(
     author VARCHAR(50) NOT NULL,
     publisher VARCHAR(50) NOT NULL,
     primary key(book_id)
-)Engine=INNODB DEFAULT CHARSET=UTF8;gender
+)Engine=INNODB DEFAULT CHARSET=UTF8;
 
 insert into book (name,price,author,publisher) values('三国演义',15,'罗贯中','人民出版社');
 insert into book (name,price,author,publisher) values('西游记',20,'吴承恩','人民出版社');
